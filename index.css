@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0;
+	padding: 3px;
+}
+
+a {
+	color: #000000;
+}
+
+a:visited {
+	color: #595E3C;
+}
+
+a:hover {
+	color: #404040;
+}
+
+#bgi img{
+	width: 100%;
+	max-width: 700px; /* 最大幅 */
+}
+
+@media(min-width:751px){
+	/*PC版のみ*/
+	.list{
+	  display:flex;
+	  justify-content: center;
+	  width:100%;
+	  margin:0 auto;
+	}}
+
+table.magazine {
+	margin: 0 auto;
+}
+
+#comment {
+	background-color: #eee;
+	text-align: center;
+	border: 2px solid #222;
+	margin:  10px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+#comment form.post textarea{
+	width: 80%;
+}
+
+hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.pager {
+	margin: 2em;
+}
+.pager a {
+	border: solid 2px gray;
+	background-color: #ffffff;
+	padding: 0.5em 1em;
+	border-radius: 3px;
+	text-decoration: none;
+	margin: 0.5em;
+}
+
+.bun {display: inline-block;
+	text-align: left;
+	padding: 15px;}
