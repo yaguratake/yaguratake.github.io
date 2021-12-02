@@ -23,7 +23,7 @@ a:hover {
 
 #bgi img{
 	width: 100%;
-	max-width: 650px; /* 最大幅 */
+	max-width: 700px; /* 最大幅 */
 }
 
 @media(min-width:751px){
