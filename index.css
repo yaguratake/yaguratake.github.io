@@ -14,11 +14,11 @@ a {
 }
 
 a:visited {
-	color: #595E3C;
+	color: #7a5656;
 }
 
 a:hover {
-	color: #404040;
+	color: #c92525;
 }
 
 #bgi img{
@@ -73,3 +73,53 @@ hr {
 .bun {display: inline-block;
 	text-align: left;
 	padding: 15px;}
+
+
+
+ul, li, figure, img {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+li {
+	width: calc(24.5% - 1px);
+	max-width: 200px;
+	margin: 0.5em;
+}
+
+@media(min-width:751px){
+	/*PC版のみ*/
+	li {margin: 2em;}}
+
+figure {
+position: relative;
+padding-top: 100%;
+margin-bottom: 3ex;}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  background-color: rgb(202, 202, 202);
+}
+
+.item img:hover {
+	opacity: 0.5; /* 25％ほど透明にする */
+ }
+ 
+.item p {
+	font-size: 2.4vmin;
+	top: 95%;
+	position: absolute;/*絶対配置*/
+	font-weight: bold; /*太字に*/
+	}
