@@ -123,3 +123,34 @@ margin-bottom: 3ex;}
 	position: absolute;/*絶対配置*/
 	font-weight: bold; /*太字に*/
 	}
+
+
+
+.announce {display: inline-block;
+	text-align: left;
+	margin: 0;
+	}
+
+.katari img {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.wa{
+	margin: 1%;
+}
+.wa p{
+	
+	display: inline-block;
+	margin: 1% 0;
+	}
+	
+	  @media screen and (max-width: 760px){   
+		.pc { display:none; }
+	  }
+	  @media screen and (min-width: 700px){
+		.sp { display:none; }
+		.wa p{
+			margin: 5px 2px;
+			}
+	  }
