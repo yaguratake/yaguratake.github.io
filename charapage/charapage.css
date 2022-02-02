@@ -131,15 +131,13 @@ hr {
 		#charapager p {
 		font-size: 5vw;
 		}
-		
+
 		.chara img{
 			max-width: 250px; /* 最大幅 */
 		}
-	}
 
-	
-	@media(max-width:962px){
-	.bun {
-		font-size: 100%;
-		width: auto;
-	}}
+		.bun {
+			font-size: 100%;
+			width: auto;
+		}
+	}
