@@ -150,6 +150,9 @@ margin-bottom: 3ex;}
 	  }
 	  @media screen and (min-width: 700px){
 		.sp { display:none; }
+		.wa{
+			margin: 0;
+		}
 		.wa p{
 			margin: 5px 2px;
 			}
