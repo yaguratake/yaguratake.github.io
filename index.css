@@ -148,7 +148,7 @@ margin-bottom: 3ex;}
 	  @media screen and (max-width: 760px){   
 		.pc { display:none; }
 	  }
-	  @media screen and (min-width: 700px){
+	  @media screen and (min-width: 761px){
 		.sp { display:none; }
 		.wa{
 			margin: 0;
