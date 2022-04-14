@@ -104,9 +104,9 @@ hr {
 
 summary {
 	width: max-content;
-    font-weight: bold;
     padding: .2em;
 	margin: 0px auto;
+	outline: none;
 }
 
 summary:hover {
