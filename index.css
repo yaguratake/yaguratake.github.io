@@ -100,4 +100,16 @@ hr {
 		.wa p{
 			margin: 5px 2px;
 			}
-	  }
+}
+
+summary {
+	width: max-content;
+    font-weight: bold;
+    padding: .2em;
+	margin: 0px auto;
+}
+
+summary:hover {
+	cursor: pointer; /* カーソルを指マークに */
+	color: #00000070;
+  }
