@@ -31,6 +31,10 @@ a:hover {
 	max-width: 650px; /* 最大幅 */
 }
 
+.FA img{
+	max-width: 100%;
+}
+
 table.magazine {
 	margin: 0 auto;
 }
