@@ -93,10 +93,10 @@ hr {
 	margin: 1% 0;
 	}
 	
-	  @media screen and (max-width: 760px){   
+	  @media screen and (max-width: 567px){   
 		.pc { display:none; }
 	  }
-	  @media screen and (min-width: 761px){
+	  @media screen and (min-width: 568px){
 		.sp { display:none; }
 		.wa{
 			margin: 0;
