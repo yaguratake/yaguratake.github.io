@@ -35,10 +35,6 @@ a:hover {
 	max-width: 100%;
 }
 
-table.magazine {
-	margin: 0 auto;
-}
-
 #comment {
 	background-color: #eee;
 	text-align: center;
@@ -72,12 +68,8 @@ hr {
 
 .bun {display: inline-block;
 	text-align: left;
-	padding: 15px;}
-
-.announce {display: inline-block;
-	text-align: left;
-	margin: 0 10px;
-	}
+	padding: 15px;
+}
 
 .wa{
 	margin: 5%;
