@@ -7,9 +7,13 @@
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <link rel="stylesheet" href="index.css" type="text/css"/>
 
-<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js" defer></script>
+<script>
+  const hasSupport = 'loading' in HTMLImageElement.prototype;
+  document.documentElement.className = hasSupport ? 'pass' : 'fail';
+  document.querySelector('span').textContent = hasSupport;
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="k2_page_controller.js"></script>
+<script src="k2_page_controller.js" defer></script>
 <script>
   $(function(){
     $('img').click(function(){
