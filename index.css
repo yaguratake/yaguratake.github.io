@@ -1,58 +1,28 @@
-body {
-	text-align: center;
-	margin: 0;
-}
+body { background-color:#eee; text-align: center;}
+        
+.pic img { max-width: 100%;}
+        
+hr {margin: 1em 0;}
+        
+.wa { display: inline-block; margin: 1;}
+        
+.com { display: inline-block; text-align: left; margin: auto 20;}
 
-h1 {
-	font-size: 24px;
-	line-height: 30px;
-	margin: 0;
-	padding: 3px;
-}
+a {color: #000000;}
 
-h3 {
-	margin: 5px;
-}
+a:visited {color: #595E3C;}
 
-a {
-	color: #000000;
-}
-
-a:visited {
-	color: #595E3C;
-}
-
-a:hover {
-	color: #404040;
-}
-
-#bgi img{
-	width: 100%;
-	max-width: 630px; /* 最大幅 */
-}
-
-.FA img{
-	max-width: 100%;
-}
+a:hover {color: #404040;}
 
 #comment {
 	background-color: #eee;
-	text-align: center;
 	border: 2px solid #222;
-	margin:  10px;
 	border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 }
 
-#comment form.post textarea{
-	width: 80%;
-}
-
-hr {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
+#comment form.post textarea{width: 80%;}
 
 .pager {
 	margin: 2em;
@@ -66,41 +36,9 @@ hr {
 	margin: 0.5em;
 }
 
-.bun {display: inline-block;
-	text-align: left;
-	padding: 15px;
-}
-
-.wa{
-	margin: 5%;
-}
-.wa p{
-	
-	display: inline-block;
-	margin: 1% 0;
-	}
-	
-	  @media screen and (max-width: 550px){   
-		.pc { display:none; }
-	  }
-	  @media screen and (min-width: 551px){
-		.sp { display:none; }
-		.wa{
-			margin: 0;
-		}
-		.wa p{
-			margin: 5px 2px;
-			}
-}
-
-summary {
-	width: max-content;
-    padding: .2em;
-	margin: 0px auto;
-	outline: none;
-}
-
-summary:hover {
-	cursor: pointer; /* カーソルを指マークに */
-	color: #00000070;
+  @media screen and (max-width: 656px){   
+	.pc { display:none; }
+  }
+  @media screen and (min-width: 657px){
+	.sp { display:none; }
   }

@@ -1,0 +1,106 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0;
+	padding: 3px;
+}
+
+h3 {
+	margin: 5px;
+}
+
+a {
+	color: #000000;
+}
+
+a:visited {
+	color: #595E3C;
+}
+
+a:hover {
+	color: #404040;
+}
+
+#bgi img{
+	width: 100%;
+	max-width: 630px; /* 最大幅 */
+}
+
+.FA img{
+	max-width: 100%;
+}
+
+#comment {
+	background-color: #eee;
+	text-align: center;
+	border: 2px solid #222;
+	margin:  10px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+#comment form.post textarea{
+	width: 80%;
+}
+
+hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.pager {
+	margin: 2em;
+}
+.pager a {
+	border: solid 2px gray;
+	background-color: #ffffff;
+	padding: 0.5em 1em;
+	border-radius: 3px;
+	text-decoration: none;
+	margin: 0.5em;
+}
+
+.bun {display: inline-block;
+	text-align: left;
+	padding: 15px;
+}
+
+.wa{
+	margin: 5%;
+}
+.wa p{
+	
+	display: inline-block;
+	margin: 1% 0;
+	}
+	
+	  @media screen and (max-width: 550px){   
+		.pc { display:none; }
+	  }
+	  @media screen and (min-width: 551px){
+		.sp { display:none; }
+		.wa{
+			margin: 0;
+		}
+		.wa p{
+			margin: 5px 2px;
+			}
+}
+
+summary {
+	width: max-content;
+    padding: .2em;
+	margin: 0px auto;
+	outline: none;
+}
+
+summary:hover {
+	cursor: pointer; /* カーソルを指マークに */
+	color: #00000070;
+  }
