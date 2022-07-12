@@ -1,98 +1,19 @@
-body {
-	text-align: center;
-	background-color: #eee;
-}
-
-a {
-	color: #000000;
-}
-
-a:visited {
-	color: #595E3C;
-}
-
-#comment {
-	background-color: #eee;
-	text-align: center;
-	border: 2px solid #222;
-	margin:  10px;
-	border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-}
-
-#comment form.post textarea{
-	width: 80%;
-}
-
-.pager {
-	margin: 2em;
-}
-.pager a {
-	border: solid 2px gray;
-	background-color: #ffffff;
-	padding: 0.5em 1em;
-	border-radius: 3px;
-	text-decoration: none;
-	margin: 0.5em;
-}
-
-	.grid {
-	  display: flex;
-	  flex-wrap: wrap;
-	  justify-content: center;
-	  gap: 15px;
-	}
-	
-
-	
-	.item img {
-	  max-width: 100%;
-	}
-	
-	.item img:hover {
-		opacity: 0.5;
-	 }
-	.item p {
-	  text-align: center;
-	  font-weight: bolder;
-	}
-
-
-	.charapager{
-		margin: 10px;
-	}
-	
-	.charapager a{
-		text-decoration: none;
-	}
-	
-	.charapager p {
-		
-		margin: 0;
-		padding: 0;
-		font-size: 3em;
-	  }
-
-	.chara {
-		display: flex;
-		flex-wrap:wrap;
-		justify-content: center;
-	}
-
-	.bun {display: inline-block;
-		text-align: left;
-		padding: 15px;
-		font-size: 20px;
-		width: 35em;
-		max-width: 100%;
-	}
-		
-	.chara img{
-		display: flex;
-		width: 100%;
-		max-width: 400px; /* 最大幅 */
-	}
+body {text-align: center;background-color: #eee;}
+a {color: #000000;}
+a:visited {color: #595E3C;}
+.pager {margin: 2em;}
+.pager a {border: solid 2px gray;background-color: #ffffff;padding: 0.5em 1em;border-radius: 3px;
+	      text-decoration: none;margin: 0.5em;}
+.grid {display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;}
+img {max-width: 100%;}
+img:hover {opacity: 0.5;}
+.item p { font-weight: bolder;}
+.charapager{margin: 10px;}
+.charapager a{text-decoration: none;}
+.charapager p {margin: 0;padding: 0;font-size: 3em;}
+.chara {display: flex;flex-wrap:wrap;justify-content: center;}
+.bun {display: inline-block;text-align: left;padding: 15px;font-size: 20px;width: 35em;max-width: 100%;}
+.chara img{display: flex;width: 100%;max-width: 400px; /* 最大幅 */}
 		  	
 	@media(max-width:760px){
 		/*スマホ版のみ*/
