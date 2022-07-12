@@ -1,27 +1,42 @@
 <html><head>
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-  <meta http-equiv="Content-Style-Type" content="text/css"/>
-  <link rel="stylesheet" href="index.css" type="text/css"/>
+      <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <link rel="stylesheet" href="index.css" media="print" onload="this.media='all'">
 
   <title>新神研修</title>
 
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="k2_page_controller.js"></script>
-  <script>
-    $(function(){
-      $('img').click(function(){
-        k2pc.nextElement('img');
+  <style>
+        body { background-color: #eee; text-align: center; margin: 0;}
+        img { width: 630px; max-width: 100%;}
+        a {color: #000000;}
+        a:visited {color: #595E3C;}
+        .pager {margin: 2em;}
+        .pager a {
+        	border: solid 2px gray;
+        	background-color: #ffffff;
+        	padding: 0.5em 1em;
+        	border-radius: 3px;
+        	text-decoration: none;
+        	margin: 0.5em;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async src="k2_page_controller.js"></script>
+    <script>
+      $(function(){
+        $('img').click(function(){
+          k2pc.nextElement('img');
+        });
       });
-    });
-  </script>
+    </script>
 </head>
 <body>
     
 <p class="pager"><a href="index.html">トップに戻る</a></p>
 <p class="pager"><a href="23.html">&lt;&lt; 前</a><a href="25.html">次 &gt;&gt;</a></p>
-<div class="pic"><hr>
+<div><hr>
 <h2>第24話</h2><hr>
 <br><div><img src="24/24_001.png" ></div><br>
 <br><div><img src="24/24_002.png" ></div><br>
