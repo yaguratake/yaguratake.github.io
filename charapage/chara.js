@@ -27,4 +27,4 @@ window.addEventListener("load", function(){
 	window.addEventListener("scroll", checkOffset, false);
 });
 
-//参考にさせていただいたサイト➡【https://torisky.com/】
+//参考にさせていただいた最強のサイト➡【https://torisky.com/】

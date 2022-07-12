@@ -7,12 +7,48 @@
 <link rel="stylesheet" href="charapage.css" type="text/css"/>
 <script src="chara.js"></script>
 <title>新神研修</title>
+<style>
+    body {
+    	text-align: center;background-color: #eee;}
+    a {color: #000000;}
+    a:visited {color: #595E3C; }
+    .grid {display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;}
+	img {max-width: 100%;}
+	img:hover {opacity: 0.5;}
+	.item p { font-weight: bolder;}
+
+	@media(max-width:760px){
+		/*スマホ版のみ*/
+	
+		.grid {
+			gap: 0px 15px;
+		  }
+		.item {
+			text-align: center;
+			width: 30%;
+			padding: 0%;
+		  }
+
+		#charapager p {
+		font-size: 5vw;
+		}
+
+		.chara img{
+			max-width: 250px; /* 最大幅 */
+		}
+
+		.bun {
+			font-size: 100%;
+			width: auto;
+		}
+	}
+</style>
 </head>
 <body>
 <p><a href="https://neetsha.jp/" target="_top"><img src="https://neetsha.jp/image/banner.gif" alt="Neetsha" /></a></p>
 <p class="pager"><a href="../index.html">トップに戻る</a></p>
 
-<hr><h1>キャラ紹介ページ</h1><br>ネタバレ注意<hr>
+<hr><h2>キャラ紹介ページ</h2>普通にネタバレ<hr>
 
 <div id="main">
 
@@ -113,11 +149,11 @@
 
 </div>
 
-<div id="comment"><p>コメント</p>
+<hr><div id="comment"><p>コメント</p>
 <script type="text/javascript">var comicid = 23478;</script>
 <form action="https://neetsha.jp/inside/comment.php" method="post"><input type="hidden" name="methodid" value="1" /><input type="hidden" name="id" value="23478" /><input type="hidden" name="enc" value="0" /><textarea name="comment" maxlength="255" style="width:80%; height:4em;" placeholder="コメントする"></textarea><p><label><input type="checkbox" name="sage" value="1" />sage
 </label><input type="submit" name="submit" value="送信" /></p><p><a href="https://neetsha.jp/inside/comment.php?id=23478">〒みんなの感想を読む</a></p></form></div>
-<p class="pager"><a href="../index.html">トップに戻る</a></p>
+<p class="pager"><a href="../index.html">トップに戻る</a></p><hr>
 <p><a href="https://neetsha.jp/" target="_top"><img src="https://neetsha.jp/image/banner.gif" alt="Neetsha" /></a></p>
 
 </body>
