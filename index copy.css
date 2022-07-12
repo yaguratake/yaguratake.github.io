@@ -11,14 +11,3 @@
 #comment form.post textarea{
 	width: 80%;
 }
-.pager {
-	margin: 2em;
-}
-.pager a {
-	border: solid 2px gray;
-	background-color: #ffffff;
-	padding: 0.5em 1em;
-	border-radius: 3px;
-	text-decoration: none;
-	margin: 0.5em;
-}
