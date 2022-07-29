@@ -6,7 +6,7 @@
 
     <style>
         body { background-color: #eee; text-align: center; margin: 0;}
-        img { max-width: 100%;}
+        img { max-width: 100%;  height: auto;}
         a {color: #000000;}
         a:visited {color: #595E3C;}
         .pager {margin: 2em;}
@@ -28,6 +28,7 @@
         });
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
 </head>
 <body>
 
@@ -38,23 +39,27 @@
 
       <div>
       <hr><h2>第3話</h2><hr>
-          <br><div><img src="3/3_001.png" ></div><br>
-        <br><div><img src="3/3_002.png" ></div><br>
-        <br><div><img src="3/3_003.png" ></div><br>
-        <br><div><img src="3/3_004.png" ></div><br>
-        <br><div><img src="3/3_005.png" ></div><br>
-        <br><div><img src="3/3_006.png" ></div><br>
-        <br><div><img src="3/3_007.png" ></div><br>
-        <br><div><img src="3/3_008.png" ></div><br>
-        <br><div><img src="3/3_009.png" ></div><br>
-        <br><div><img src="3/3_010.png" ></div><br>
-        <br><div><img src="3/3_011.png" ></div><br>
-        <br><div><img src="3/3_012.png" ></div><br>
-        <br><div><img src="3/3_013.png" ></div><br>
+          <br><div><img src="3/3_001.png" width="630" height="891" ></div><br>
+        <br><div><img src="3/3_002.png" width="630" height="891" ></div><br>
+        <br><div><img src="3/3_003.png" width="630" height="891" ></div><br>
+        <br><div><img src="3/3_004.png" width="630" height="891" ></div><br>
+        <br><div><img src="3/3_005.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_006.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_007.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_008.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_009.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_010.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_011.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_012.png" width="630" height="891" ></div><br>
+        <br><div><img class="lazyload" data-src="3/3_013.png" width="630" height="891" ></div><br>
       </div>
   </div>
 
-  <hr><div id="comment"><p>コメント</p>
+      <script>
+        lazyload();
+    </script>
+
+    <hr><div id="comment"><p>コメント</p>
       <script type="text/javascript">var comicid = 23478;</script>
       <form action="https://neetsha.jp/inside/comment.php" method="post">
           <input type="hidden" name="methodid" value="1" />
