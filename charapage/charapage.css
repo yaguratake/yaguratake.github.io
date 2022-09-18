@@ -8,6 +8,7 @@ a:visited {color: #595E3C;}
 img {max-width: 100%;}
 .item img:hover {opacity: 0.5;}
 .item p { font-weight: bolder;}
+textarea {font-size: 16px;}
 .charapager{margin: 10px;}
 .charapager a{text-decoration: none;}
 .charapager p {margin: 0;padding: 0;font-size: 3em;}
